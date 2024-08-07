@@ -1,0 +1,93 @@
+[0.141s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'object_subscriber']
+[0.141s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['object_subscriber'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dbff4d19060>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dbff4d186d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dbff4d186d0>>, mixin_verb=('build',))
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.363s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yuct/learning/object_subscriber'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'object_subscriber'
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.405s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/yuct/learning/ros_python/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.405s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yuct/learning/ros_python/install/py_object_subsriber' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.407s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yuct/learning/object_subscriber/install
+[0.409s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 27 installed packages in /home/yuct/learning/autoware-practice/install
+[0.410s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'object_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'object_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'object_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'object_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'object_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'object_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'object_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'object_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'object_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.478s] DEBUG:colcon.colcon_core.verb:Building package 'object_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuct/learning/object_subscriber/build/object_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuct/learning/object_subscriber/install/object_subscriber', 'merge_install': False, 'path': '/home/yuct/learning/object_subscriber', 'symlink_install': False, 'test_result_base': None}
+[0.478s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.479s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuct/learning/object_subscriber' with build type 'ament_python'
+[0.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_subscriber', 'ament_prefix_path')
+[0.482s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuct/learning/object_subscriber/install/object_subscriber/share/object_subscriber/hook/ament_prefix_path.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuct/learning/object_subscriber/install/object_subscriber/share/object_subscriber/hook/ament_prefix_path.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuct/learning/object_subscriber/install/object_subscriber/share/object_subscriber/hook/ament_prefix_path.sh'
+[0.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.484s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuct/learning/object_subscriber'
+[0.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuct/learning/object_subscriber': PYTHONPATH=/home/yuct/learning/object_subscriber/build/object_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuct/learning/object_subscriber/install/object_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/object_subscriber build --build-base /home/yuct/learning/object_subscriber/build/object_subscriber/build install --record /home/yuct/learning/object_subscriber/build/object_subscriber/install.log --single-version-externally-managed install_data
+[1.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuct/learning/object_subscriber' returned '0': PYTHONPATH=/home/yuct/learning/object_subscriber/build/object_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuct/learning/object_subscriber/install/object_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/object_subscriber build --build-base /home/yuct/learning/object_subscriber/build/object_subscriber/build install --record /home/yuct/learning/object_subscriber/build/object_subscriber/install.log --single-version-externally-managed install_data
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/home/yuct/learning/object_subscriber/install/object_subscriber' for CMake module files
+[1.720s] Level 1:colcon.colcon_core.environment:checking '/home/yuct/learning/object_subscriber/install/object_subscriber' for CMake config files
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/yuct/learning/object_subscriber/install/object_subscriber/lib'
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/yuct/learning/object_subscriber/install/object_subscriber/bin'
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/yuct/learning/object_subscriber/install/object_subscriber/lib/pkgconfig/object_subscriber.pc'
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/yuct/learning/object_subscriber/install/object_subscriber/lib/python3.10/site-packages'
+[1.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_subscriber', 'pythonpath')
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuct/learning/object_subscriber/install/object_subscriber/share/object_subscriber/hook/pythonpath.ps1'
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuct/learning/object_subscriber/install/object_subscriber/share/object_subscriber/hook/pythonpath.dsv'
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuct/learning/object_subscriber/install/object_subscriber/share/object_subscriber/hook/pythonpath.sh'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/yuct/learning/object_subscriber/install/object_subscriber/bin'
+[1.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_subscriber)
+[1.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuct/learning/object_subscriber/install/object_subscriber/share/object_subscriber/package.ps1'
+[1.724s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuct/learning/object_subscriber/install/object_subscriber/share/object_subscriber/package.dsv'
+[1.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuct/learning/object_subscriber/install/object_subscriber/share/object_subscriber/package.sh'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuct/learning/object_subscriber/install/object_subscriber/share/object_subscriber/package.bash'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuct/learning/object_subscriber/install/object_subscriber/share/object_subscriber/package.zsh'
+[1.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuct/learning/object_subscriber/install/object_subscriber/share/colcon-core/packages/object_subscriber)
+[1.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.728s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.735s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.735s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.735s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.748s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.749s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuct/learning/object_subscriber/install/local_setup.ps1'
+[1.750s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuct/learning/object_subscriber/install/_local_setup_util_ps1.py'
+[1.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuct/learning/object_subscriber/install/setup.ps1'
+[1.755s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuct/learning/object_subscriber/install/local_setup.sh'
+[1.756s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuct/learning/object_subscriber/install/_local_setup_util_sh.py'
+[1.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuct/learning/object_subscriber/install/setup.sh'
+[1.759s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuct/learning/object_subscriber/install/local_setup.bash'
+[1.760s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuct/learning/object_subscriber/install/setup.bash'
+[1.762s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuct/learning/object_subscriber/install/local_setup.zsh'
+[1.763s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuct/learning/object_subscriber/install/setup.zsh'

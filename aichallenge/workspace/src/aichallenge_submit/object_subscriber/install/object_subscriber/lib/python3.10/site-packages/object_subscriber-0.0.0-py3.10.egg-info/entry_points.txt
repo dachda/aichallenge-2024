@@ -1,0 +1,3 @@
+[console_scripts]
+object_subscriber_node = object_subscriber.object_subscriber_node:main
+

@@ -1,0 +1,24 @@
+[0.729s] Invoking command in '/home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber': PYTHONPATH=/home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/object_subscriber build --build-base /home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/build install --record /home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/install.log --single-version-externally-managed install_data
+[0.994s] running egg_info
+[0.995s] writing build/object_subscriber/object_subscriber.egg-info/PKG-INFO
+[0.995s] writing dependency_links to build/object_subscriber/object_subscriber.egg-info/dependency_links.txt
+[0.995s] writing entry points to build/object_subscriber/object_subscriber.egg-info/entry_points.txt
+[0.995s] writing requirements to build/object_subscriber/object_subscriber.egg-info/requires.txt
+[0.996s] writing top-level names to build/object_subscriber/object_subscriber.egg-info/top_level.txt
+[0.997s] reading manifest file 'build/object_subscriber/object_subscriber.egg-info/SOURCES.txt'
+[0.998s] writing manifest file 'build/object_subscriber/object_subscriber.egg-info/SOURCES.txt'
+[0.998s] running build
+[0.998s] running build_py
+[0.998s] copying object_subscriber/object_subscriber_node.py -> /home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/build/lib/object_subscriber
+[0.999s] running install
+[0.999s] running install_lib
+[0.999s] copying /home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/build/lib/object_subscriber/object_subscriber_node.py -> /home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/python3.10/site-packages/object_subscriber
+[1.000s] byte-compiling /home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/python3.10/site-packages/object_subscriber/object_subscriber_node.py to object_subscriber_node.cpython-310.pyc
+[1.001s] running install_data
+[1.001s] running install_egg_info
+[1.002s] removing '/home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/python3.10/site-packages/object_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[1.003s] Copying build/object_subscriber/object_subscriber.egg-info to /home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/python3.10/site-packages/object_subscriber-0.0.0-py3.10.egg-info
+[1.004s] running install_scripts
+[1.024s] Installing object_subscriber_node script to /home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/object_subscriber
+[1.025s] writing list of installed files to '/home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/install.log'
+[1.051s] Invoked command in '/home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber' returned '0': PYTHONPATH=/home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/object_subscriber build --build-base /home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/build install --record /home/yuct/work/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/install.log --single-version-externally-managed install_data

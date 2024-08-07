@@ -1,5 +1,5 @@
 #!/bin/bash
-AWSIM_DIRECTORY=/aichallenge/simulator/AWSIM
+AWSIM_DIRECTORY=/aichallenge/simulator/AWSIM_GPU_Practice/AWSIM.x86_64
 
 # Move working directory
 OUTPUT_DIRECTORY=$(date +%Y%m%d-%H%M%S)
@@ -15,7 +15,7 @@ sudo sysctl -w net.core.rmem_max=2147483647 >/dev/null
 
 # Start AWSIM
 echo "Start AWSIM"
-$AWSIM_DIRECTORY/AWSIM.x86_64 >/dev/null &
+/aichallenge/simulator/AWSIM_GPU_Practice/AWSIM.x86_64 >/dev/null &
 PID_AWSIM=$!
 sleep 20
 
@@ -32,17 +32,17 @@ PID_ROSBAG=$!
 sleep 5
 
 # Start recording rviz2
-echo "Start screen capture"
-until (ros2 service type /debug/service/capture_screen >/dev/null); do
-    sleep 5
-done
+# echo "Start screen capture"
+# until (ros2 service type /debug/service/capture_screen >/dev/null); do
+#     sleep 5
+# done
 
 # Move windows
-wmctrl -a "RViz" && wmctrl -r "RViz" -e 0,0,0,1920,1043
-wmctrl -a "AWSIM" && wmctrl -r "AWSIM" -e 0,0,0,900,1043
+# wmctrl -a "RViz" && wmctrl -r "RViz" -e 0,0,0,1920,1043
+# wmctrl -a "AWSIM" && wmctrl -r "AWSIM" -e 0,0,0,900,1043
 
-ros2 service call /debug/service/capture_screen std_srvs/srv/Trigger >/dev/null
-sleep 1
+# ros2 service call /debug/service/capture_screen std_srvs/srv/Trigger >/dev/null
+# sleep 1
 
 # Start driving and wait for the simulation to finish
 echo "Waiting for the simulation"

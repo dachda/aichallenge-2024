@@ -1,0 +1,21 @@
+[2.576s] Invoking command in '/aichallenge/workspace/src/aichallenge_submit/object_subscriber': PYTHONPATH=/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/prefix_override:/aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/object_subscriber build --build-base /aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/build install --record /aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/install.log --single-version-externally-managed install_data
+[3.120s] running egg_info
+[3.121s] writing build/object_subscriber/object_subscriber.egg-info/PKG-INFO
+[3.122s] writing dependency_links to build/object_subscriber/object_subscriber.egg-info/dependency_links.txt
+[3.122s] writing entry points to build/object_subscriber/object_subscriber.egg-info/entry_points.txt
+[3.122s] writing requirements to build/object_subscriber/object_subscriber.egg-info/requires.txt
+[3.123s] writing top-level names to build/object_subscriber/object_subscriber.egg-info/top_level.txt
+[3.125s] reading manifest file 'build/object_subscriber/object_subscriber.egg-info/SOURCES.txt'
+[3.126s] writing manifest file 'build/object_subscriber/object_subscriber.egg-info/SOURCES.txt'
+[3.126s] running build
+[3.127s] running build_py
+[3.127s] running install
+[3.127s] running install_lib
+[3.129s] running install_data
+[3.129s] running install_egg_info
+[3.133s] removing '/aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/python3.10/site-packages/object_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[3.136s] Copying build/object_subscriber/object_subscriber.egg-info to /aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/python3.10/site-packages/object_subscriber-0.0.0-py3.10.egg-info
+[3.138s] running install_scripts
+[3.175s] Installing object_subscriber_node script to /aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/object_subscriber
+[3.175s] writing list of installed files to '/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/install.log'
+[3.225s] Invoked command in '/aichallenge/workspace/src/aichallenge_submit/object_subscriber' returned '0': PYTHONPATH=/aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/prefix_override:/aichallenge/workspace/src/aichallenge_submit/object_subscriber/install/object_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/object_subscriber build --build-base /aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/build install --record /aichallenge/workspace/src/aichallenge_submit/object_subscriber/build/object_subscriber/install.log --single-version-externally-managed install_data
