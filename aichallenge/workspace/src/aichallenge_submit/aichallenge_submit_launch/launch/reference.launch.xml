@@ -96,10 +96,9 @@
   </group>
 
   <!-- Dummy Perception -->
-  <!-- <node pkg="dummy_perception_publisher" exec="empty_objects_publisher" name="empty_objects_publisher" output="screen">
+  <node pkg="dummy_perception_publisher" exec="empty_objects_publisher" name="empty_objects_publisher" output="screen">
     <remap from="~/output/objects" to="/perception/object_recognition/objects"/>
-  </node> -->
-      <node pkg="object_subscriber" exec="object_subscriber_node" name="object_subscriber" output="screen"/>
+  </node>      
 
   <!-- Planning -->
   <group>
@@ -197,8 +196,11 @@
       </group> <!-- lane_driving -->
 
       <!-- Customizable -->
-      <node pkg="path_to_trajectory" exec="path_to_trajectory_node" name="path_to_trajectory" output="screen">
+      <!-- <node pkg="path_to_trajectory" exec="path_to_trajectory_node" name="path_to_trajectory" output="screen">
         <remap from="input" to="/planning/scenario_planning/lane_driving/behavior_planning/path_with_lane_id"/>
+        <remap from="output" to="/planning/scenario_planning/trajectory"/>
+      </node> -->
+      <node pkg="object_subscriber" exec="object_subscriber_node" name="object_subscriber" output="screen">
         <remap from="output" to="/planning/scenario_planning/trajectory"/>
       </node>
 

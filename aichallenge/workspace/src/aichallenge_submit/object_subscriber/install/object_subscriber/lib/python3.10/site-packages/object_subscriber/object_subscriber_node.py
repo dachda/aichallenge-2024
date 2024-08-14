@@ -2,85 +2,72 @@ import math,random
 import rclpy
 from rclpy.node import Node
 
-from std_msgs.msg import Float64MultiArray
-from unique_identifier_msgs.msg import UUID
-from autoware_auto_perception_msgs.msg import PredictedObjects,PredictedObject,PredictedObjectKinematics,ObjectClassification,Shape
-from geometry_msgs.msg import Point32,Polygon,Vector3,Pose,Point,Quaternion
+from autoware_planning_msgs.srv import SetRoute
+from geometry_msgs.msg import PoseStamped
+
+from autoware_auto_planning_msgs.msg import PathWithLaneId,PathPointWithLaneId,Trajectory,TrajectoryPoint
 
 class MinimalSubscriber(Node):
 
     def __init__(self):
         super().__init__('minimal_subscriber')
         self.subscription = self.create_subscription(
-            Float64MultiArray,
-            '/aichallenge/objects',
+            PathWithLaneId,
+            '/planning/scenario_planning/lane_driving/behavior_planning/path_with_lane_id',
             self.listener_callback,
             1)
-        self.objects=[0.0,0.0,1.1,1.1]
-        # self.objects=[]
 
-        self.publisher_ = self.create_publisher(PredictedObjects, '/perception/object_recognition/objects', 1)
-        self.i=0
-        self.timer = self.create_timer(0.5, self.timer_callback)
+        self.publisher_ = self.create_publisher(Trajectory, 'output', 1)
+        # self.timer = self.create_timer(1.0, self.timer_callback)
 
-    def timer_callback(self):
-        msg = PredictedObjects()
-        msg.header.frame_id="map"
-        msg.header.stamp=self.get_clock().now().to_msg()
+    # def publish_trajectory(self):
 
 
-        msg.objects = []
-        for i in range(round(len(self.objects)/4)):
-            msg.objects.append(self.createPredictedObject(self.objects[i*4],self.objects[i*4+1],self.objects[i*4+2],self.objects[i*4+3]))
+    def listener_callback(self, msg:PathWithLaneId):
+        trajectory = Trajectory()
+        trajectory.header.frame_id=msg.header
+        for data in msg.points:
+            trajectory_point = TrajectoryPoint()
+            trajectory_point.pose = data.point.pose
+            trajectory_point.longitudinal_velocity_mps = data.point.longitudinal_velocity_mps
+            trajectory.points.append(trajectory_point)
+        self.get_logger().info('trajectory length: "%s"' % len(trajectory.points))
 
-        self.publisher_.publish(msg)
-        self.i += 1
+        # trajectory.header.stamp=self.get_clock().now().to_msg()
+        self.publisher_.publish(trajectory)
 
-        self.get_logger().info('Publishing objects: "%s"' % str(len(msg.objects)))
-        if len(msg.objects)>0:
-            self.get_logger().info('objects 0: "%s"' % msg.objects[0])
-            self.get_logger().info('objects 0: "%s"' % self.objects[0:4])
+class SetRouteClientAsync(Node):
+    def __init__(self):
+        super().__init__("set_route_client_async")
+        self.get_logger().info("started")
+        self.sub = self.create_subscription(PoseStamped, "/goal_pose", self.callback, 1)
+        self.sub  # prevent unused variable warning
+        self.cli = self.create_client(SetRoute, "/planning/mission_planning/set_route")
+        while not self.cli.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info("service not available, waiting again...")
+
+    def callback(self, msg):
+        self.get_logger().info("I heard: [%s]" % msg)
+        self.send_request(msg)
+
+    def send_request(self, goal: PoseStamped):
+        request = SetRoute.Request()
+        request.header.stamp = self.get_clock().now().to_msg()
+        request.header.frame_id = "base_link"
+        # request.segments
+        request.goal = goal.pose
+
+        self.future = self.cli.call_async(request)
+        self.future.add_done_callback(self.future_callback)
     
-    def createPredictedObject(self,x,y,z,w):
-        predictedObject = PredictedObject()
-        predictedObject.object_id.uuid = [random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255),random.randint(0, 255)]
+    def future_callback(self, future):
+        try:
+            response = future.result()
+        except Exception as e:
+            self.get_logger().info("Service call failed %r" % (e,))
+        else:
+            self.get_logger().info("Result: %s" % (response))
 
-        objectClassification = ObjectClassification()
-        objectClassification.probability=1.0
-        objectClassification.label=ObjectClassification.CAR
-        predictedObject.classification = [objectClassification]
-
-        predictedObject.kinematics.initial_pose_with_covariance.pose = Pose(
-            position = Point(x=x,y=y,z=z),
-            orientation = Quaternion(x=0.0,y=0.0,z=0.0,w=1.0) # [0,0,0,1] means not moving
-        )
-        
-        # msg.shape = self.createPoints(x,y,z,w)
-        predictedObject.shape.type=Shape.CYLINDER
-        predictedObject.shape.dimensions = Vector3(x=w/2,y=1.0,z=1.0)
-
-        self.get_logger().info('Shape: "%s"' % str(predictedObject.shape))
-
-        return predictedObject
-
-    def createPoints(self,x,y,z,w):
-        point1 = Point32(); point2 = Point32(); point3 = Point32(); point4 = Point32(); 
-        point1.x = x+w/2; point1.y = y; point1.z =z
-        point2.x = x; point2.y = y+w/2; point2.z =z+1
-        point3.x = x-w/2; point3.y = y; point3.z =z
-        point4.x = x; point4.y = y-w/2; point4.z =z+1
-
-        polygon = Polygon()
-        polygon.points = [point1,point2,point3,point4,point1]
-        shape = Shape()
-        shape.footprint = polygon
-        return shape
-        
-
-    def listener_callback(self, msg):
-        self.objects=msg.data
-        self.get_logger().info('Objects Size: "%s"' % len(self.objects))
-        self.get_logger().info('Objects: "%s"' % self.objects)
 
 def main(args=None):
     rclpy.init(args=args)
@@ -89,10 +76,13 @@ def main(args=None):
 
     rclpy.spin(minimal_subscriber)
 
+    setRouteClientAsync = SetRouteClientAsync()
+    rclpy.spin(setRouteClientAsync)
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
     minimal_subscriber.destroy_node()
+    setRouteClientAsync.destroy_node()
     rclpy.shutdown()
 
 

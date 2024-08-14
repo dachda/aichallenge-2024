@@ -1,0 +1,2440 @@
+header:
+  stamp:
+    sec: 34
+    nanosec: 994999217
+  frame_id: map
+points:
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89634.0254
+      y: 43125.7643
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8746285077163228
+      w: 0.4847937432454324
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89633.49544994703
+      y: 43126.612328856325
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8746116107220381
+      w: 0.48482422628227034
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89632.96555900751
+      y: 43127.46039465174
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8744814913541079
+      w: 0.4850588843419892
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89632.43612327236
+      y: 43128.30874464917
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8743255480570171
+      w: 0.48533991801086857
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89631.90723187228
+      y: 43129.15743654917
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8762488326930501
+      w: 0.4818588830809983
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89631.37161213557
+      y: 43130.00188634241
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8789532833754216
+      w: 0.47690787961991765
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89630.82649556332
+      y: 43130.840244026396
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8793520025222566
+      w: 0.476172296191302
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89630.27997642675
+      y: 43131.677688998316
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8788536711251556
+      w: 0.4770914217944366
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89629.73521185688
+      y: 43132.516271505105
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.877103873056603
+      w: 0.48030073482049396
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89629.19658946455
+      y: 43133.358818749664
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8770368266485583
+      w: 0.4804231517133897
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89628.65820227396
+      y: 43134.20151634252
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8791393465594541
+      w: 0.47656480076797114
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89628.11244908291
+      y: 43135.039421228525
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8822932073913681
+      w: 0.47070021902592346
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89627.55555716148
+      y: 43135.87002633201
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8821311162351287
+      w: 0.47100392118300427
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89626.99924654902
+      y: 43136.7010007615
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8821311162351287
+      w: 0.47100392118300427
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89626.44293593656
+      y: 43137.53197519099
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8824850265966037
+      w: 0.4703404913812883
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89625.88537672524
+      y: 43138.362111428374
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8822948225771727
+      w: 0.47069719146550615
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89625.32842124577
+      y: 43139.19279900347
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8662084572211489
+      w: 0.49968280802780984
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89624.82779505807
+      y: 43140.05844412756
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8660209993690698
+      w: 0.5000076285936021
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89624.32781014494
+      y: 43140.92447863518
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8691742748336012
+      w: 0.49450589477526297
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89623.81688685108
+      y: 43141.784094591276
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8730508231841858
+      w: 0.487629224039552
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89623.2924518351
+      y: 43142.63554402927
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8731446489124184
+      w: 0.48746120058483594
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89622.7676886788
+      y: 43143.4867923077
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8725348081850848
+      w: 0.488551950672001
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89622.24504015892
+      y: 43144.339373186434
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8750951423142631
+      w: 0.4839509188936204
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89621.71354724313
+      y: 43145.18623582
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.880980056378416
+      w: 0.47315340035075615
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89621.16129584964
+      y: 43146.019912746524
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8801575571953473
+      w: 0.474681655967364
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89620.61194837072
+      y: 43146.855491131086
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8772859211704296
+      w: 0.4799681369801028
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89620.07268052723
+      y: 43147.69764012336
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8774055477459964
+      w: 0.4797494187433143
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89619.53299953984
+      y: 43148.53950972169
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8774244196218173
+      w: 0.4797149026779521
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89618.99325235368
+      y: 43149.381336802326
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8782955737823117
+      w: 0.47811806604059615
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89618.45044800967
+      y: 43150.221191846766
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8784636880085622
+      w: 0.4778091134024082
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89617.90705123942
+      y: 43151.0606675546
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8765414289400044
+      w: 0.4813264207913535
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89617.37040227286
+      y: 43151.904471414906
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8755300629604544
+      w: 0.48316364603771944
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89616.83729696364
+      y: 43152.750519259
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8735212327367143
+      w: 0.486786047415218
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89616.31122039154
+      y: 43153.600951734836
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8645861309486408
+      w: 0.5024846486921364
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89615.81621086874
+      y: 43154.46981874748
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8699372970987584
+      w: 0.49316234559879624
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89615.3026291549
+      y: 43155.327859236495
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8741144533213003
+      w: 0.4857200042151902
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89614.77447874995
+      y: 43156.177006174694
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8762892554221108
+      w: 0.4817853680133538
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89614.23872347789
+      y: 43157.021356394194
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.87240259679048
+      w: 0.48878800017310897
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89613.71655427903
+      y: 43157.874190710296
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8691346430734499
+      w: 0.49457554752493266
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89613.20614556427
+      y: 43158.73325436343
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8329842685858504
+      w: 0.5532966729418277
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89612.81795352352
+      y: 43159.656138163155
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8170591543864402
+      w: 0.5765538467769643
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89612.48310710999
+      y: 43160.597382047265
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.771586529508017
+      w: 0.6361243805119987
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89612.29157186742
+      y: 43161.58337527533
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.7101688536404304
+      w: 0.7040313908619679
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89612.28294009833
+      y: 43162.57782693068
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.6599488296346718
+      w: 0.751310549815339
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89612.41207799436
+      y: 43163.57103981096
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.6202514650579019
+      w: 0.7844030342199898
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89612.64243413102
+      y: 43164.5431652149
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.46226786309915724
+      w: 0.886740335580681
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89613.21488938923
+      y: 43165.362756988354
+      z: 43.148
+    orientation:
+      x: -0.0002440733352582219
+      y: 0.0005458348735101401
+      z: 0.40820439690768573
+      w: 0.9128903618933276
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89613.88175882697
+      y: 43166.10819564987
+      z: 43.14919607460767
+    orientation:
+      x: 0.0001461060281999498
+      y: -0.00043474029854620347
+      z: 0.31856705338283614
+      w: 0.9479002174031181
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89614.67475094784
+      y: 43166.70907566513
+      z: 43.14828345130225
+    orientation:
+      x: 2.8741710576205357e-05
+      y: -0.00013704508654578397
+      z: 0.20525896829689438
+      w: 0.9787076868637811
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89615.60159994908
+      y: 43167.11572786629
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.05161193354203753
+      w: 0.9986672160014327
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89616.59331632798
+      y: 43167.21850779913
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.04080382824356704
+      w: 0.9991671770032627
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89617.59114637742
+      y: 43167.13687320906
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.08554428008603722
+      w: 0.996334369649347
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89618.57410530989
+      y: 43166.96682791778
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.11755212419921537
+      w: 0.9930667138194957
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89619.54900187833
+      y: 43166.73274537806
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.18315566232759214
+      w: 0.9830839248799367
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89620.48223990462
+      y: 43166.37250321139
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.3135880614286308
+      w: 0.9495591228193394
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89621.28599319782
+      y: 43165.77664493052
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.43208563587302834
+      w: 0.9018325805115941
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89621.91396816862
+      y: 43164.99560198774
+      z: 43.148
+    orientation:
+      x: 6.364730475907698e-05
+      y: 0.00011552428881439857
+      z: -0.48255277813817277
+      w: 0.8758668842434281
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89622.4480714302
+      y: 43164.15058649656
+      z: 43.148263704135935
+    orientation:
+      x: 9.310761211260826e-05
+      y: 0.00016591830281711481
+      z: -0.4893768587881239
+      w: 0.8720723902777555
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89622.96899708625
+      y: 43163.29719784947
+      z: 43.14864414981392
+    orientation:
+      x: 4.3897842686716803e-05
+      y: 7.951791222281781e-05
+      z: -0.4832958553482238
+      w: 0.8754570851578676
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89623.50172886708
+      y: 43162.45117638554
+      z: 43.14882576976565
+    orientation:
+      x: -5.4391108678311354e-05
+      y: -9.942405799331505e-05
+      z: -0.47993851639228635
+      w: 0.8773021187935403
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89624.0410454733
+      y: 43161.60907645107
+      z: 43.14859911171084
+    orientation:
+      x: -5.418589471591756e-05
+      y: -9.95323661187559e-05
+      z: -0.4781413837621961
+      w: 0.878282872593545
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89624.58382115078
+      y: 43160.76916792422
+      z: 43.14837245365603
+    orientation:
+      x: -5.385490390765873e-05
+      y: -9.971058057937744e-05
+      z: -0.47522536239663
+      w: 0.8798641043322776
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89625.1321624391
+      y: 43159.93287056907
+      z: 43.148145795601216
+    orientation:
+      x: -3.4009682894798556e-05
+      y: -6.448716639689726e-05
+      z: -0.46648813735759465
+      w: 0.8845274514617332
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89625.69687823248
+      y: 43159.10771779723
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.46337338058425154
+      w: 0.8861631397016705
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89626.26718327626
+      y: 43158.286850658864
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.47213753111757384
+      w: 0.8815249013557144
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89626.82124216395
+      y: 43157.4546190354
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.47082123062000614
+      w: 0.8822286374843332
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89627.37785605509
+      y: 43156.62393604852
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.4815315366589804
+      w: 0.8764287644770914
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89627.91411264898
+      y: 43155.77987698002
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.4791078368412407
+      w: 0.8777560484994148
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89628.4550174506
+      y: 43154.93880757662
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.4756273550334239
+      w: 0.8796468718434173
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89629.0025731863
+      y: 43154.102041642815
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.47835607233045835
+      w: 0.878165968404935
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89629.54491472474
+      y: 43153.261904153704
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.48546993366658187
+      w: 0.8742533634512164
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89630.07355728412
+      y: 43152.413049206436
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.5081080181597497
+      w: 0.8612933541377011
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89630.55719736915
+      y: 43151.53781152582
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.5026645390307054
+      w: 0.864481556310514
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89631.05185449465
+      y: 43150.66872237159
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.48120095595420254
+      w: 0.8766103125042287
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89631.58874890431
+      y: 43149.82506601298
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.4774922419582774
+      w: 0.8786359649306748
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89632.13275116718
+      y: 43148.98598238408
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.4773338957720934
+      w: 0.8787219992392568
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89632.6770609156
+      y: 43148.14708701903
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.4881784680524459
+      w: 0.872743824572805
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89633.20040141199
+      y: 43147.2950150941
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.5023513712269415
+      w: 0.8646635760955885
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89633.69567938028
+      y: 43146.42629966567
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.5030153045500976
+      w: 0.8642775036921722
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89634.18963570197
+      y: 43145.55680103855
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.4959878546759464
+      w: 0.8683294582207564
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89634.69761636437
+      y: 43144.69545869537
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.4908642062319404
+      w: 0.8712360937428425
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89635.21571768713
+      y: 43143.84014698093
+      z: 43.148
+    orientation:
+      x: -0.0002069281349153997
+      y: -0.00037199618461085957
+      z: -0.48611599453568755
+      w: 0.8738941919112204
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89635.74302219112
+      y: 43142.990644421676
+      z: 43.14714877266689
+    orientation:
+      x: -0.0006594585238896607
+      y: -0.001256303617318261
+      z: -0.4647776963019018
+      w: 0.8854262701298022
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89636.3112124859
+      y: 43142.16725991872
+      z: 43.144309891499326
+    orientation:
+      x: -0.0007619699481380812
+      y: -0.0015857465392634345
+      z: -0.43310529577466794
+      w: 0.9013416153610398
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89636.93596096989
+      y: 43141.38661825644
+      z: 43.140791751176494
+    orientation:
+      x: -0.0006490647797511238
+      y: -0.0013700734905976956
+      z: -0.42813035153971013
+      w: 0.9037157206245924
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89637.56924821931
+      y: 43140.61294769052
+      z: 43.13776023251427
+    orientation:
+      x: -0.0006177685937201714
+      y: -0.001297517094022929
+      z: -0.429878290436741
+      w: 0.9028857016381089
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89638.19945911746
+      y: 43139.83692754234
+      z: 43.13488697188945
+    orientation:
+      x: -0.0006170559035421042
+      y: -0.0012971387684805255
+      z: -0.42957602584148913
+      w: 0.9030295536112091
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89638.83047390087
+      y: 43139.06097967259
+      z: 43.13201371126463
+    orientation:
+      x: -0.0009451008157141602
+      y: -0.002094417263798027
+      z: -0.4113090709414324
+      w: 0.9114930435072278
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89639.49022548884
+      y: 43138.313314012994
+      z: 43.12743128338582
+    orientation:
+      x: -0.0009579345523851179
+      y: -0.0027628004585954925
+      z: -0.3275917985211016
+      w: 0.9448148299199846
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89640.2734469117
+      y: 43137.695971437744
+      z: 43.12159885620054
+    orientation:
+      x: -0.0007360285043991215
+      y: -0.0027628724095719206
+      z: -0.25742078755603465
+      w: 0.9662951738118741
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89641.15819212125
+      y: 43137.18856995548
+      z: 43.11576642901527
+    orientation:
+      x: -6.961806235477435e-05
+      y: -0.00037219947884063623
+      z: -0.18385647745742073
+      w: 0.982953026506263
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89642.10181434076
+      y: 43136.82277253329
+      z: 43.115
+    orientation:
+      x: -1.1931486085124564e-07
+      y: -1.0953765098309918e-06
+      z: -0.10828538900497664
+      w: 0.9941198491765602
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89643.07491121617
+      y: 43136.6082362063
+      z: 43.11499780407799
+    orientation:
+      x: -2.3830871615750875e-06
+      y: -2.9432649626452358e-05
+      z: -0.0807033668391094
+      w: 0.9967381630643386
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89644.08901563616
+      y: 43136.44293358936
+      z: 43.11493712272401
+    orientation:
+      x: 8.027066734861521e-06
+      y: -6.313831531527814e-05
+      z: 0.12611947324264106
+      w: 0.9920150575561432
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89645.04133693512
+      y: 43136.6890577913
+      z: 43.11481191571706
+    orientation:
+      x: 2.4765220284055117e-05
+      y: -0.00011050384200848954
+      z: 0.2186872215669907
+      w: 0.9757950021899552
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89645.94564333429
+      y: 43137.11582416801
+      z: 43.11458543721295
+    orientation:
+      x: 3.2404841507371344e-05
+      y: -0.00010575216146768257
+      z: 0.29297656163648733
+      w: 0.9561196170448905
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89646.76630949957
+      y: 43137.670882370876
+      z: 43.114366272595205
+    orientation:
+      x: 5.185931965308408e-05
+      y: -9.312219233719656e-05
+      z: 0.48653715863680363
+      w: 0.8736598777009815
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89647.29545390538
+      y: 43138.525185755505
+      z: 43.114152050372375
+    orientation:
+      x: -0.0001127684052447873
+      y: 0.00014500550034747978
+      z: 0.6138943001841383
+      w: 0.7893882153022801
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89647.54320420501
+      y: 43139.50022309355
+      z: 43.11452164942116
+    orientation:
+      x: -0.001511246729099192
+      y: 0.0013479593607936622
+      z: 0.7462716659051778
+      w: 0.6656384152120398
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89647.42965404336
+      y: 43140.4911277645
+      z: 43.11856121781802
+    orientation:
+      x: -0.0017387787897013255
+      y: 0.0013906432640941665
+      z: 0.7809500708177874
+      w: 0.6245894889039723
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89647.20987913113
+      y: 43141.46669161518
+      z: 43.12301428066606
+    orientation:
+      x: -0.001325694902819534
+      y: 0.0010324008242263215
+      z: 0.7889746351920744
+      w: 0.6144234709913804
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89646.96491738205
+      y: 43142.43620871369
+      z: 43.126374790566985
+    orientation:
+      x: -0.00142134938065548
+      y: 0.0010950988192732795
+      z: 0.7921502875765216
+      w: 0.6103234408221171
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89646.70993689496
+      y: 43143.40304253596
+      z: 43.12996299733136
+    orientation:
+      x: -0.0020839210924743423
+      y: 0.0015131989015653487
+      z: 0.8091727803447699
+      w: 0.587565127497437
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89646.40043333411
+      y: 43144.353851458996
+      z: 43.13511333824198
+    orientation:
+      x: -0.0024848233763637194
+      y: 0.001604913989599001
+      z: 0.8400153302545458
+      w: 0.5425546007926029
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89645.98905819547
+      y: 43145.26561443739
+      z: 43.14103112897597
+    orientation:
+      x: -0.00195568175894369
+      y: 0.001209131391451002
+      z: 0.8505603234488657
+      w: 0.5258724650375763
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89645.54208742187
+      y: 43146.16030656417
+      z: 43.14563031662081
+    orientation:
+      x: -0.0006543291986672905
+      y: 0.0003764852883055702
+      z: 0.866765205835984
+      w: 0.49871585904624266
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89645.03960689127
+      y: 43147.024701371774
+      z: 43.1471398834094
+    orientation:
+      x: -0.0001252633407756292
+      y: 7.038222012956597e-05
+      z: 0.8718086120592952
+      w: 0.48984663242149973
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89644.51951060585
+      y: 43147.87879942227
+      z: 43.14742724537415
+    orientation:
+      x: -0.00010373347001896487
+      y: 5.609918356393682e-05
+      z: 0.879610584027595
+      w: 0.4756944466344781
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89643.9721314233
+      y: 43148.71557413083
+      z: 43.14766308592297
+    orientation:
+      x: -5.43995066015784e-05
+      y: 3.0029928452946906e-05
+      z: 0.8754659726338098
+      w: 0.4832797604899614
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89643.43925380228
+      y: 43149.5617581927
+      z: 43.14778736060276
+    orientation:
+      x: -4.591260082588644e-05
+      y: 2.6272469595484502e-05
+      z: 0.8679441402308633
+      w: 0.4966618232164597
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89642.93259826401
+      y: 43150.4239101398
+      z: 43.14789315712192
+    orientation:
+      x: -2.973625292867877e-06
+      y: 1.6922813537495391e-06
+      z: 0.8691146952230724
+      w: 0.4946106009130816
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89642.4218779598
+      y: 43151.28365614522
+      z: 43.1479
+    orientation:
+      x: -2.0505804553317835e-06
+      y: 1.1490441952613421e-06
+      z: 0.8723755585616668
+      w: 0.4888362556303437
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89641.89979966558
+      y: 43152.13655385265
+      z: 43.14790470114204
+    orientation:
+      x: -4.1600295260770547e-05
+      y: 2.3235402527816435e-05
+      z: 0.8730491069598714
+      w: 0.4876322944249106
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89641.3753702254
+      y: 43152.988007652384
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8733074337258804
+      w: 0.48716950458656283
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89640.85003756014
+      y: 43153.838906638426
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8718423953742398
+      w: 0.4897865225055787
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89640.32982353085
+      y: 43154.69293289667
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8697269333798114
+      w: 0.4935332423998904
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89639.81697861882
+      y: 43155.55140289199
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.873091403091457
+      w: 0.487556562716359
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89639.2924848336
+      y: 43156.40263040679
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8847667769965961
+      w: 0.4660340656250952
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89638.72680861384
+      y: 43157.22736872996
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8832866798070013
+      w: 0.4688332766298954
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89638.16641859138
+      y: 43158.055596079386
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8804958122398893
+      w: 0.4740539258649987
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89637.61587534093
+      y: 43158.890397281146
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8781074349748518
+      w: 0.4784635123412092
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89637.07372542543
+      y: 43159.730689116106
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8757391789410511
+      w: 0.4827845176345795
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89636.53989177632
+      y: 43160.57626851157
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8750742074377571
+      w: 0.4839887720569365
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89636.00838353574
+      y: 43161.42331830894
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8779259539900249
+      w: 0.4787964278382877
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89635.46688933737
+      y: 43162.263992563094
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8817125889703182
+      w: 0.47178693331975463
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89634.91204899676
+      y: 43163.095962758984
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8797576282996298
+      w: 0.4754224599749263
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89634.364103834
+      y: 43163.93247307302
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.8775911830807279
+      w: 0.4794097572838586
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- time_from_start:
+    sec: 0
+    nanosec: 0
+  pose:
+    position:
+      x: 89633.82376999242
+      y: 43164.77392660656
+      z: 43.148
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.880564012360423
+      w: 0.4739272308442644
+  longitudinal_velocity_mps: 11.11111068725586
+  lateral_velocity_mps: 0.0
+  acceleration_mps2: 0.0
+  heading_rate_rps: 0.0
+  front_wheel_angle_rad: 0.0
+  rear_wheel_angle_rad: 0.0
+- '...'
+---

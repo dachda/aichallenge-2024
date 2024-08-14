@@ -17,3 +17,5 @@ pkill -9 rviz2
 pkill -9 simple_pure_pur
 pkill -9 twist2accel
 pkill -9 vehicle_velocit
+pkill -9 obstacle_avoida
+pkill -9 object_subscrib
