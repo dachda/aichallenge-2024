@@ -6,7 +6,8 @@ from std_msgs.msg import Float64MultiArray
 from autoware_planning_msgs.srv import SetRoute
 from geometry_msgs.msg import PoseStamped
 
-from autoware_auto_planning_msgs.msg import PathWithLaneId,PathPointWithLaneId,Trajectory,TrajectoryPoint
+from autoware_auto_planning_msgs.msg import PathWithLaneId,PathPoint,Trajectory,TrajectoryPoint
+from geometry_msgs.msg import Point
 
 class MinimalSubscriber(Node):
 
@@ -25,7 +26,7 @@ class MinimalSubscriber(Node):
         self.objects=[]
         self.left_bound = []
         self.right_bound = []
-        self.first_round = True
+        self.first_round_flag = 0
 
         self.publisher_ = self.create_publisher(Trajectory, 'output', 1)
         # self.timer = self.create_timer(1.0, self.timer_callback)
@@ -33,39 +34,70 @@ class MinimalSubscriber(Node):
     # def publish_trajectory(self):
     def objects_callback(self, msg:Float64MultiArray):
         self.objects=msg.data    
-
+    
+    # def check_object_is_on_right(self, x, y):
+    #     distance_min_right = 100
+    #     distance_min_left = 100
+    #     for data in self.right_bound:
+    #         dist = (x - data.x)**2 + (y - data.y)**2
+    #         if(dist<distance_min_right):
+    #             distance_min_right =dist
+    #     for data in self.left_bound:
+    #         dist = (x - data.x)**2 + (y - data.y)**2
+    #         if(dist<distance_min_left):
+    #             distance_min_left =dist
+    #     self.get_logger().info("Right: %s" % (distance_min_right))
+    #     self.get_logger().info("Left: %s" % (distance_min_left))
+    #     self.get_logger().info("Compare Result: %s" % (distance_min_right < distance_min_left))
+    #     return (distance_min_right < distance_min_left)
+    def find_nearest_point_in_boundary(self,trajectory_point: PathPoint,boundary, gain):
+        distance_min = 100
+        point_min = 1
+        for i,data in enumerate(boundary):
+            dist = (trajectory_point.pose.position.x - data.x)**2 + (trajectory_point.pose.position.y - data.y)**2
+            if(dist<distance_min):
+                distance_min =dist
+                point_min = i
+        trajectory_point.pose.position.x -= (trajectory_point.pose.position.x - boundary[point_min].x)/(1.9+gain)
+        trajectory_point.pose.position.y -= (trajectory_point.pose.position.y - boundary[point_min].y)/(1.9+gain)
+                
 
     def listener_callback(self, msg:PathWithLaneId):
         # self.get_logger().info(str(len(msg.points)))
-        self.get_logger().info(str(len(msg.left_bound)))
         # self.get_logger().info(str(len(msg.right_bound)))
         trajectory = Trajectory()
         trajectory.header=msg.header
+
+        # get boundary at start
         if(len(self.left_bound) == 0):
             self.left_bound = msg.left_bound # part of course ending is lost, fix me
+            self.get_logger().info("left_bount_len: %s" % len(msg.left_bound))
         if(len(self.right_bound) == 0):
             self.right_bound = msg.right_bound  # part of course ending is lost, fix me
-        # if( (len(msg.left_bound) == 2) & self.first_round ):
-        #     self.first_round = False
-        #     self.left_bound += self.left_bound
-        #     self.get_logger().info("route merged") 
-        #     for i,data in enumerate(self.right_bound):
-        #         if(round(data.x) == round(self.right_bound[0])):
-        #            self.get_logger().info("Result: %s" % str(i)) 
-
+            self.get_logger().info("right_bount_len: %s" % len(msg.right_bound))
+        # append boundary of goal -> start point, which is not showed at firts time , may be need fix
+        if( (len(msg.left_bound) == 2) & (self.first_round_flag == 0 ) ):
+            self.first_round_flag = 1
+        if( (len(msg.left_bound) != 2) & (self.first_round_flag == 1 ) ):
+            self.first_round_flag = 2
+            self.left_bound += msg.left_bound[2:15]
+            self.right_bound += msg.right_bound[2:15]
+            self.get_logger().info("route merged")
+        
+        # transfer PathWithLaneId() to TrajectoryPoint()
         for data in msg.points:
             trajectory_point = TrajectoryPoint()
             trajectory_point.pose = data.point.pose
-            # trajectory_point.pose.position.x += 1
-            # trajectory_point.pose.position.y += 1
             trajectory_point.longitudinal_velocity_mps = data.point.longitudinal_velocity_mps
             trajectory.points.append(trajectory_point)
+
+        # load objects and update TrajectoryPoint() to avoid
         for i in range(round(len(self.objects)/4)):
             object_x = self.objects[i*4]
             object_y = self.objects[i*4+1]
-            object_r = self.objects[i*4+3] + 1.3
+            # object_r = self.objects[i*4+3] + 1.8
 
-            # find nearest point
+            # find nearest point in TrajectoryPoint() of object
             distance_min = 100
             point_min = -1
             for i,point in enumerate(trajectory.points):                
@@ -73,78 +105,36 @@ class MinimalSubscriber(Node):
                 if(dist<distance_min):
                     distance_min =dist
                     point_min = i
-            if(distance_min > object_r):
+            if(distance_min > 8.0):
                 continue
-            if(point_min < 3):
-                point_min = 3
             if(point_min > (len(trajectory.points)-2)):
                 point_min = len(trajectory.points)-2
-            # check right or left
-            vx1 = trajectory.points[point_min+1].pose.position.x - trajectory.points[point_min-1].pose.position.x
-            vy1 = trajectory.points[point_min+1].pose.position.y - trajectory.points[point_min-1].pose.position.y
-            vx2 = object_x - trajectory.points[point_min-1].pose.position.x
-            vy2 = object_y - trajectory.points[point_min-1].pose.position.y
-            # <0 is right
-            ans = vx1 * vy2 - vy1 * vx2
+
+            # check object is at right or left of TrajectoryPoint()
+            if(point_min < 2):
+                point_min = 2 # fix out of range problem
+            # if(point_min > (len(trajectory.points)-3)):
+            #     point_min = len(trajectory.points)-3 # fix out of range problem
+            vx1 = trajectory.points[point_min].pose.position.x - trajectory.points[point_min-2].pose.position.x
+            vy1 = trajectory.points[point_min].pose.position.y - trajectory.points[point_min-2].pose.position.y
+            vx2 = object_x - trajectory.points[point_min-2].pose.position.x
+            vy2 = object_y - trajectory.points[point_min-2].pose.position.y  
+            ans = vx1 * vy2 - vy1 * vx2 
+
+            # <0 is right, then aviod object by driving at left side
+            start_avoid = -7
+            end_avoid = 6
+            if( (start_avoid+point_min) < 0):
+                start_avoid = 0 - point_min # fix out of range problem
+            if( (end_avoid+point_min+1) > len(trajectory.points)):
+                end_avoid = len(trajectory.points) - point_min - 1 # fix out of range problem
+
             if (ans < 0 ):
-                # self.get_logger().info('right object')
-                # find nearest point on left site
-                left_distance_min_pre = 100
-                left_distance_min_after = 100
-                left_point_min_pre = 1
-                left_point_min_after = 1
-                for i,data in enumerate(self.left_bound):
-                    dist_pre = (trajectory.points[point_min-1].pose.position.x - data.x)**2 + (trajectory.points[point_min-1].pose.position.y - data.y)**2
-                    dist_after = (trajectory.points[point_min+1].pose.position.x - data.x)**2 + (trajectory.points[point_min+1].pose.position.y - data.y)**2
-                    if(dist_pre<left_distance_min_pre):
-                        left_distance_min_pre =dist_pre
-                        left_point_min_pre = i
-                    if(dist_after<left_distance_min_after):
-                        left_distance_min_after =dist_after
-                        left_point_min_after = i
-                        
-                trajectory.points[point_min-1].pose.position.x -= (trajectory.points[point_min-1].pose.position.x - self.left_bound[left_point_min_pre].x)/1.5
-                trajectory.points[point_min-1].pose.position.y -= (trajectory.points[point_min-1].pose.position.y - self.left_bound[left_point_min_pre].y)/1.5
-                trajectory.points[point_min+1].pose.position.x -= (trajectory.points[point_min+1].pose.position.x - self.left_bound[left_point_min_after].x)/1.5
-                trajectory.points[point_min+1].pose.position.y -= (trajectory.points[point_min+1].pose.position.y - self.left_bound[left_point_min_after].y)/1.5
-
-                trajectory.points[point_min].pose.position.x = (trajectory.points[point_min-1].pose.position.x + trajectory.points[point_min+1].pose.position.x)/2
-                trajectory.points[point_min].pose.position.y = (trajectory.points[point_min-1].pose.position.y + trajectory.points[point_min+1].pose.position.y)/2
-    
-
-
-
-                # for i in range(5):
-                #     trajectory.points[point_min+i].pose.position.x -= trajectory.points[point_min+i].pose.position.x - self.left_bound[point_min+i]
+                for i in range(start_avoid,end_avoid):
+                    self.find_nearest_point_in_boundary(trajectory.points[point_min+i],self.left_bound, abs(i)*0.5)
             else:
-                # self.get_logger().info('left object')
-                right_distance_min_pre = 100
-                right_distance_min_after = 100
-                right_point_min_pre = -1
-                right_point_min_after = -1
-                for i,data in enumerate(self.right_bound):
-                    dist_pre = (trajectory.points[point_min-1].pose.position.x - data.x)**2 + (trajectory.points[point_min-1].pose.position.y - data.y)**2
-                    dist_after = (trajectory.points[point_min+1].pose.position.x - data.x)**2 + (trajectory.points[point_min+1].pose.position.y - data.y)**2
-                    if(dist_pre<right_distance_min_pre):
-                        right_distance_min_pre =dist_pre
-                        right_point_min_pre = i
-                    if(dist_after<right_distance_min_after):
-                        right_distance_min_after =dist_after
-                        right_point_min_after = i
-                trajectory.points[point_min-1].pose.position.x -= (trajectory.points[point_min-1].pose.position.x - self.right_bound[right_point_min_pre].x)/1.5
-                trajectory.points[point_min-1].pose.position.y -= (trajectory.points[point_min-1].pose.position.y - self.right_bound[right_point_min_pre].y)/1.5
-                trajectory.points[point_min+1].pose.position.x -= (trajectory.points[point_min+1].pose.position.x - self.right_bound[right_point_min_after].x)/1.5
-                trajectory.points[point_min+1].pose.position.y -= (trajectory.points[point_min+1].pose.position.y - self.right_bound[right_point_min_after].y)/1.5
-
-                trajectory.points[point_min].pose.position.x = (trajectory.points[point_min-1].pose.position.x + trajectory.points[point_min+1].pose.position.x)/2
-                trajectory.points[point_min].pose.position.y = (trajectory.points[point_min-1].pose.position.y + trajectory.points[point_min+1].pose.position.y)/2
-    
-
-            # rate = object_r / distance_min - 1
-            # trajectory.points[point_min].pose.position.x += rate * (trajectory.points[point_min].pose.position.x - object_x)
-            # trajectory.points[point_min].pose.position.y += rate * (trajectory.points[point_min].pose.position.y - object_y)
-        
-        
+                for i in range(start_avoid,end_avoid):
+                    self.find_nearest_point_in_boundary(trajectory.points[point_min+i],self.right_bound, abs(i)*0.5)
 
         # trajectory.header.stamp=self.get_clock().now().to_msg()
         self.publisher_.publish(trajectory)
